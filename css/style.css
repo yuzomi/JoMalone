@@ -1,9 +1,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
-*,
 body {
   font-family: "Nanum Myeongjo", serif;
   background: #fdf9ee;
+  padding-bottom: 5%;
+  width: 390px;
+  margin: 0 auto;
 }
 
 header {
@@ -26,6 +28,7 @@ header img {
 #qna,
 #result {
   width: 390px;
+
   margin: 0 auto;
   text-align: center;
 }
