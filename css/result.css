@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap");
+
+#result {
+  display: none;
+  width: 390px;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.resultCologne {
+  margin: 2em 0;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.resultDesc {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.8em;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.img-fluid {
+  width: 80%;
+  margin-top: 5em;
+}

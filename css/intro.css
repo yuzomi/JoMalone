@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap");
+
+.corogne-slider {
+  margin: 0 auto;
+  width: 390px;
+  height: 330px;
+  overflow: hidden;
+  margin-bottom: 15%;
+}
+
+.corogne-slider img {
+  width: 390px;
+}
+
+.corogne-list {
+  animation-name: rolling;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+
+#intro-main-text {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.desc {
+  line-height: 1.5em;
+  font-family: "Noto Sans", sans-serif;
+}
