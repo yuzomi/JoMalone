@@ -5,21 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoMalone with yuzomi</title>
+    <meta name="author" content="yuzomi">
+    <meta name="keywords" content="나만의 조말론 찾기">
+    <meta name="description" content="나만의 조말론 찾기">
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="나만의 조말론 찾기" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/코롱.png" />
+    <meta property="og:description" content="조말론 런던에서 나만의 시그니처 향을 찾아보세요" />
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
+    <title>나만의 시그니처 조말론 찾기</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="stylesheet" href="./css/animation.css">
+
 </head>
 
 <body>
-    <section id="intro">
-        <h1 class="sr-only">나와 어울리는 조말론 향수는? 인트로 페이지</h1>
-    </section>
+    <header>
+        <img src="./img/logo.png">
+    </header>
+    <main class="intro-wrapper">
+        <section id="intro">
+            <h1 class="sr-only">나와 어울리는 조말론 향수는? 인트로 페이지</h1>
+            <p id="intro-main-text">나만의 조말론 찾기</p>
+
+
+            <div class="corogne-slider">
+                <ul class="corogne-list">
+                    <li">
+                        <img src="./img/코롱.png" alt="레드로즈 코롱 사진">
+                        </li>
+                        <li>
+                            <img src="./img/코롱2.png" alt="로즈워터&바닐라 코롱 사진">
+                        </li>
+                        <li>
+                            <img src="./img/코롱3.png" alt="로즈블러쉬 코롱 사진">
+                        </li>
+                        <li">
+                            <img src="./img/코롱.png" alt="레드로즈 코롱 사진">
+                            </li>
+                </ul>
+            </div>
+            <!-- 
+            <img class="red-rose-img" src="./img/코롱.png" alt="레드로즈 코롱 사진" style="width: 390px;"> -->
+
+            <p class="desc">조말론 런던에서 나만의
+            </p>
+            <p class="desc">시그니처 향을 찾아보세요</p>
+            <button type="button" class="start" id="startBtn">시작하기</button>
+
+
+        </section>
+    </main>
+
     <section id="qna">
         <h1 class="sr-only">질문 페이지</h1>
+        <div class="status">
+            <div class="statusBar"></div>
+        </div>
+        <div class="qBox">
+
+        </div>
+
+        <div class="aBox">
+
+        </div>
+
     </section>
     <section id="result">
         <h1 class="sr-only">결과 페이지</h1>
+        <div id="resultImg"></div>
+        <div class="resultCologne"></div>
+        <div class="resultDesc"></div>
+        <button type="button" class="start">공유하기</button>
     </section>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/start.js"></script>
+
 </body>
 
 </html>
