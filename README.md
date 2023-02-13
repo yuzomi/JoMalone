@@ -1,2 +1,5 @@
-# jomaloneTest
-나와 어울리는 조말론 향수는? 향수 mbti 테스트
+<div align="center">
+  <h1>🗝 나만의 조말론 찾기</h1>
+</div>
+
+[![메인사진](https://user-images.githubusercontent.com/102042383/218418082-f776b6d9-6536-4682-b185-dca431b72cb8.png)](https://jomalone-kr.netlify.app/)
