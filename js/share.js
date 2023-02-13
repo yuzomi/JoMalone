@@ -11,7 +11,7 @@ function setShare() {
     objectType: "feed",
     content: {
       title: "나만의 조말론 시그니처 향은?",
-      description: shareDesc,
+      description: "조말론 런던에서 오직 나만의 시그니처 향을 찾아보세요.",
       imageUrl: shareImg,
       link: {
         mobileWebUrl: shareURL,
