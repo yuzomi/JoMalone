@@ -10,7 +10,7 @@ function setShare() {
   Kakao.Share.sendDefault({
     objectType: "feed",
     content: {
-      title: "나만의 조말론 시그니처 향 찾기",
+      title: "나만의 조말론 시그니처 향은?",
       description: shareDesc,
       imageUrl: shareImg,
       link: {
