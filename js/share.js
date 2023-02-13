@@ -3,14 +3,14 @@ const url = "https://jomalone-kr.netlify.app/";
 function setShare() {
   const resultImg = document.querySelector("#resultImg");
   const resultAlt = resultImg.firstElementChild.alt;
-  const shareDesc = infoList[resultAlt].name;
+  const shareDesc = infoList[resultAlt].desc;
   const shareImg = url + "img/result-" + resultAlt + ".png";
-  const shareURL = url + "page.result-" + resultAlt + ".html";
+  const shareURL = url + "page/result-" + resultAlt + ".html";
 
   Kakao.Share.sendDefault({
     objectType: "feed",
     content: {
-      title: "나만의 조말론 찾기",
+      title: "나만의 조말론 시그니처 향 찾기",
       description: shareDesc,
       imageUrl: shareImg,
       link: {
