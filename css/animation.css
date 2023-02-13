@@ -41,3 +41,15 @@
     margin-top: -945px;
   }
 }
+
+@keyframes sliding {
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  50% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: 50vw 0, -50vw 0;
+  }
+}

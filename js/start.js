@@ -96,3 +96,7 @@ startBtn.addEventListener("click", () => {
     goNext(qIndex);
   }, 400);
 });
+
+setTimeout(function () {
+  document.querySelector(".splash").classList.add("seen");
+}, 300);

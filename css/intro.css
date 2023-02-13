@@ -4,7 +4,7 @@
   margin: 0 auto;
   height: 330px;
   overflow: hidden;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 
 .corogne-slider img {
@@ -27,4 +27,25 @@
 .desc {
   line-height: 1.5em;
   font-family: "Noto Sans", sans-serif;
+}
+
+.splash {
+  background: rgb(253, 217, 223);
+  margin: 0 auto;
+  background-position: center;
+  height: 120%;
+  width: 100%;
+  position: fixed;
+  transition: 1s all cubic-bezier(0.86, 0, 0.07, 0.05);
+  top: 0;
+  text-align: center;
+}
+
+.splash img {
+  width: 390px;
+  margin: 0 auto;
+}
+
+.seen {
+  top: -120%;
 }
