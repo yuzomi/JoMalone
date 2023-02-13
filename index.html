@@ -22,7 +22,12 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/result.css">
     <link rel="stylesheet" href="./css/animation.css">
-
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
+        integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx"
+        crossorigin="anonymous"></script>
+    <script>
+        Kakao.init('c1f1fac14824c9df1bf9304e0b0002de');
+    </script>
 </head>
 
 <body>
@@ -89,10 +94,11 @@
         <div id="resultImg"></div>
         <div class="resultCologne"></div>
         <div class="resultDesc"></div>
-        <button type="button" class="start">공유하기</button>
+        <button type="button" class="start" onclick="js:setShare()">공유하기</button>
     </section>
     <script src="./js/data.js"></script>
     <script src="./js/start.js"></script>
+    <script src="./js/share.js"></script>
 
 </body>
 

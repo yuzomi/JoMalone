@@ -26,8 +26,7 @@ header img {
 #intro,
 #qna,
 #result {
-  width: 390px;
-
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }

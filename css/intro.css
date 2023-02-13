@@ -2,10 +2,9 @@
 
 .corogne-slider {
   margin: 0 auto;
-  width: 390px;
   height: 330px;
   overflow: hidden;
-  margin-bottom: 15%;
+  margin-bottom: 5em;
 }
 
 .corogne-slider img {
@@ -21,8 +20,8 @@
 #intro-main-text {
   font-size: 1.3em;
   text-align: center;
-  padding-top: 15%;
-  padding-bottom: 10%;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .desc {
