@@ -20,14 +20,14 @@ function setShare() {
     },
     buttons: [
       {
-        title: "친구 결과 확인하기",
+        title: "친구 결과 확인",
         link: {
           mobileWebUrl: shareURL,
           webUrl: shareURL,
         },
       },
       {
-        title: "나도 테스트 해보기",
+        title: "테스트 해보기",
         link: {
           mobileWebUrl: url,
           webUrl: url,
